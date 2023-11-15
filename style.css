@@ -29,6 +29,9 @@ nav li {
     margin-right: 20px;
 }
 
+nav a{
+    color:#4CAF50;
+}
 nav a {
     text-decoration: none;
     color: #fff;
