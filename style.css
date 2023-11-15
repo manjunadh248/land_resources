@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.home-section {
+    text-align: center;
+    padding: 2em;
+    background-color: #fff;
+}
+
+.home-section h1 {
+    font-size: 36px;
+    color: #4CAF50;
+}
+
+.home-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.home-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.home-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.service-section {
+    background-color: #f8f8f8;
+    padding: 2em;
+    text-align: center;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.service-title h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.service-desc p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.service-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.about-section {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-section {
+    background-color: #f8f8f8;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
